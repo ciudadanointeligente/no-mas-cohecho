@@ -1,6 +1,7 @@
 ---
 name: "Fulvio Rossi"
 image: "fulvio-rossi.jpg"
-current_situation: "<b>Partido:</b> PS </br><b>Estado:</b> Sin formalizar. Ejerciendo como Senador."
+cargo: "<b> Ex Senador PS:</b>"
+current_situation: "<b>Estado:</b> Sobreseído en el Caso SQM". 
 risk: ""
 ---
