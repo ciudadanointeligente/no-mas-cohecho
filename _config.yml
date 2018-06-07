@@ -3,7 +3,7 @@ title: No más cohecho
 email: info@ciudadanointeligente.org
 description: infórmate en nomascohecho.cl
 # Hasta que no sepamos quién los financia nos gobierna un poder invisible.
-baseurl: "http://nomascohecho.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
+baseurl: "https://nomascohecho.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
 analytics: 'UA-41822715-11'
