@@ -4,7 +4,9 @@
     </div>
 </section>
 
-<section id="imputados" class="bg-lightblue">
+<section id="imputados" class="bg-white">
+    {% include propuestas.html %}
+
     <div class="container">
         <h2>Los querellados<span class='subhead'>Estos son los funcionarios públicos ante los cuales se interpuso nuestra querella por presunto cohecho <a href="#" data-toggle="tooltip" data-placement="top" title="El cohecho es un delito que consiste en que una autoridad o funcionario público acepta o solicita una dádiva a cambio de realizar u omitir un acto inherente a su cargo"><i class="fa fa-info-circle"></i></a> :</span></h2>
         <h3></h3>
@@ -25,7 +27,8 @@
                       </div>
                   </div>
               </div>
-              {% if counter%4==0 %}
+              {% assign cnt = counter|modulo:4 %}
+              {% if cnt == 0 %}
 
             </div>
               </ul>

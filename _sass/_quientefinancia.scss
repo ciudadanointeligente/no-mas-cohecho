@@ -2,15 +2,19 @@
  * Custom design for QTF
  */
 
+.text-light {
+	color: #CCCCCC;
+}
+
 // HEADER
 
 .site-header .header-one {
-	background: $brand-color;
+	background: #2b2b2b;
 	padding: 1rem;
 }
 
 .site-header .header-two {
-	background: darken($brand-color, 10%);
+	background: #1f1f1f;
   padding: 1rem 1rem 0;
 }
 
@@ -102,13 +106,13 @@ ul.list-inline {
 
 /** Components **/
 
-.bg-lightblue {
-	background: #82C5E8;
+.bg-white {
+	background: white;
 	h3 {
 	  color: #FFFFFF;
 	}
 	.thumbnail {
-		background-color: #64B0D8;
+		background-color: #f9f9f9;
 	}
 }
 
@@ -262,8 +266,7 @@ ul.list-inline {
 }
 
 .home {
-  padding: 0 0 50px;
-  background: radial-gradient(circle, #1F1F1F 5%, #000 60%);
+  background: radial-gradient(circle, #1F1F1F 5%, #171717 60%);
 }
 
 .video-sqm {
