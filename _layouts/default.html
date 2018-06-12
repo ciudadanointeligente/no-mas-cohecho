@@ -2,6 +2,16 @@
 <html prefix="og: http://ogp.me/ns#">
     {% include head.html %}
     <body>
+      <!-- facebook share code -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      <!-- end facebook share code -->
         {% include header.html %}
         {{content}}
         {% include footer.html %}
