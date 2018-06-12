@@ -17,7 +17,7 @@ h1 {
   font-family: "Yanone Kaffeesatz", Helvetica, sans-serif;
   font-weight: 400;
   color: #FFFFFF;
-  margin-top: 50px;
+  margin-top: 0;
   margin-bottom: 50px;
   text-align: center
 }
@@ -50,7 +50,8 @@ h3 {
 	font-family: "Yanone Kaffeesatz";
 	font-weight: 500;
 	font-size: 30px;
-    color: #CCCCCC;
+  color: #CCCCCC;
+  line-height: 42px;
 }
 
 h4 {
