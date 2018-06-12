@@ -2,6 +2,22 @@
  * Custom design for QTF
  */
 
+// HEADER
+
+.site-header .header-one {
+	background: $brand-color;
+	padding: 1rem;
+}
+
+.site-header .header-two {
+	background: darken($brand-color, 10%);
+  padding: 1rem 1rem 0;
+}
+
+ul.list-inline {
+    margin-bottom: 11px;
+}
+
 .petition{
 	max-width: 800px;
 	margin: 0 auto;
