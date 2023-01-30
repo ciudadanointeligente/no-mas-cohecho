@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nomascohecho.cl"
 twitter_username: ciudadania_i
 github_username:  ciudadanointeligente
-analytics: 'UA-41822715-11'
+analytics: 'G-31T3XTW1TL'
 basedomain: nomascohecho.cl #quientefinancia.cl
 
 # build settings
