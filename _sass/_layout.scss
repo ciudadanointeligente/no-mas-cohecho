@@ -240,11 +240,9 @@ div#bajada-logo {
 }
 
 .edition {
-	text-align: right;
-	color: #fff;
-	font-weight: 100;
-	font-size: 31px;
-	line-height: 26px;
+    display: block;
+    margin-top: 10px;
+    float: left;
 }
 
 .panel h4 {

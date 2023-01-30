@@ -2,8 +2,9 @@
 title: No más cohecho
 email: info@ciudadanointeligente.org
 description: La corrupción se detiene con cambios profundos
-baseurl: "https://nomascohecho.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
-twitter_username: ciudadanoi
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://nomascohecho.cl"
+twitter_username: ciudadania_i
 github_username:  ciudadanointeligente
 analytics: 'UA-41822715-11'
 basedomain: nomascohecho.cl #quientefinancia.cl
