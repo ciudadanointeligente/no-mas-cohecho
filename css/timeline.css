@@ -1,0 +1,68 @@
+
+.timeline{
+  width:800px;
+  background-color:#000000;
+  color:#fff;
+  padding:30px 20px;
+  box-shadow:0px 0px 10px #000000;
+}
+.timeline ul{
+  list-style-type:none;
+  border-left:2px solid #000000;
+  padding:10px 5px;
+}
+.timeline ul li{
+  padding:10px 10px;
+  position:relative;
+  transition:.5s;
+}
+.timeline ul li span{
+  display:inline-block;
+  background-color:#ffffff;
+  border-radius:5px;
+  padding:2px 5px;
+  font-family: "Yanone Kaffeesatz";
+  font-size:28px;
+  text-align:center;
+}
+.timeline ul li .content h3{
+  color:#ffffff;
+  font-family: "Yanone Kaffeesatz";
+  font-size:20px;
+  padding-top:2px;
+}
+.timeline ul li .content p{
+  padding:5px 0px 10px 0px;
+  font-family: "Yanone Kaffeesatz";
+  color:#ffffff;
+  font-size:22px;
+}
+.timeline ul li:before{
+  position:absolute;
+  content:'';
+  width:10px;
+  height:10px;
+  background-color:#ffffff;
+  border-radius:50%;
+  left:-11px;
+  top:28px;
+  transition:.5s;
+}
+.timeline ul li:hover{
+  background-color:#000000;
+}
+.timeline ul li:hover:before{
+  background-color:#EF4036;
+  box-shadow:0px 0px 10px 2px #EF4036;
+}
+@media (max-width:300px){
+  .timeline{
+    width:100%;
+    padding:30px 5px 30px 10px;
+  }
+  .timeline ul li .content h3{
+    color:#ffffff;
+    font-size:15px;
+  }
+
+}
